@@ -1,0 +1,88 @@
+{
+    "settings": [
+        "ayarlar"
+    ],
+    "how-super": [
+        "hs"
+    ],
+    "meme": [
+        "reddit"
+    ],
+    "russian-roulette": [
+        "rr"
+    ],
+    "giveaway-list": [
+        "glist",
+        "çekiliş-listesi"
+    ],
+    "giveaway-options": [
+        "goptions",
+        "çekiliş-seçenekleri"
+    ],
+    "avatar": [
+        "pp"
+    ],
+    "bot": [
+        "client"
+    ],
+    "server": [
+        "guild",
+        "sunucu"
+    ],
+    "user": [
+        "member",
+        "kullanıcı",
+        "üye"
+    ],
+    "ban": [
+        "b",
+        "yasakla"
+    ],
+    "clear": [
+        "purge",
+        "sil"
+    ],
+    "kick": [
+        "k",
+        "at"
+    ],
+    "lock": [
+        "l",
+        "kilitle"
+    ],
+    "nuke": [
+        "bulkclear",
+        "patlat"
+    ],
+    "timeout": [
+        "t",
+        "zaman-aşımı"
+    ],
+    "unlock": [
+        "ul",
+        "kilit aç"
+    ],
+    "untimeout": [
+        "ut",
+        "zaman-aşımı-kaldır"
+    ],
+    "add-emoji": [],
+    "help-command": [
+        "help-c",
+        "komut-yardım"
+    ],
+    "help": [
+        "h",
+        "yardım"
+    ],
+    "invite-me": [
+        "invite",
+        "davet"
+    ],
+    "nsfw": [
+        "hornyboy"
+    ],
+    "ping": [
+        "p"
+    ]
+}

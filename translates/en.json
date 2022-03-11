@@ -1,0 +1,67 @@
+{
+    "commands": {
+        "fun": {
+            "how-super": {
+                "text": "{user} is {rand}% superman."
+            },
+            "russian-roulette": {
+                "win": "Lucky, You are still alive!",
+                "lose": ":gun: Pew, you are dead...",
+                "text": "Result: {result}"
+            }
+        },
+        "info": {
+            "avatar": {
+                "text": "{user}'s Avatar"
+            },
+            "bot": {
+                "title": "**{botName} Infortmations**",
+                "text": ":bust_in_silhouette: User Count: `{userCount}`\n\n:busts_in_silhouette: Server Count: `{serverCount}`\n\nShard Count: `{shardCount}`\n\nPing:\n> Socket: `{wsping}`\n> Response: `{ping}`\n\nUptime: `{uptime}`\n\nMemory Usage: {memUsage}\n\nCpu: {cpu}"
+            },
+            "server": {
+                "title": "{serverName} Infortmations",
+                "text": "**Name: {serverName}\n\nID: {serverId}\n\nOwner: {serverOwner}\n\nMembers: {memberCount}\n\nChannels: {channelCount}\n\nRoles: {roleCount}\n\nEmojis: {emojiCount}**"
+            },
+            "user": {
+                "title": "{username}'s Profile",
+                "text": "**Username: {username}\n\nID: {id}\n\nTag: {tag}\n\nIs Bot?: {isBot}\n\nAccount created at: `{createdAt}`\n\nRoles: {roles}**"
+            }
+        },
+        "moderation": {
+            "reason": "Reason",
+            "error": "Failed...",
+            "!member": "<member> is required argument which is missing",
+            "!count": "Invalid Count which must be between 2 and 100.",
+            "ban": {
+                "title": "User Banned from the Server!",
+                "text": "Executor: {executor} | `{executorId}`\n\nExecuted User: {executed} | `{executedId}`\n\nReason: {reason}"
+            },
+            "clear": {
+                "title": "{count} messages has been deleted."
+            },
+            "kick": {
+                "title": "User Kicked from the Server!",
+                "text": "Executor: {executor} | `{executorId}`\n\nExecuted User: {executed} | `{executedId}`\n\nReason: {reason}"
+            },
+            "lock": {
+                "text": "{channel} Successfully Locked 🔐"
+            },
+            "nuke": {
+                "title": "Successfully Nuked!",
+                "text": "Nuked by: {executor} | `{executorId}`"
+            },
+            "timeout": {
+                "!time": "Invalid time provided!",
+                "title": "User Timeouted on the Server!",
+                "text": "Executor: {executor} | `{executorId}`\n\nExecuted User: {executed} | `{executedId}`\n\nDuration: {duration}\n\nReason: {reason}"
+            },
+            "unlock": {
+                "text": "{channel} Successfully Unlocked 🔓"
+            },
+            "untimeout": {
+                "title": "User Untimeouted on the Server!",
+                "text": "Executor: {executor} | `{executorId}`\n\nExecuted User: {executed} | `{executedId}`\n\nReason: {reason}"
+            }
+        }
+    }
+}

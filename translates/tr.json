@@ -1,0 +1,67 @@
+{
+    "commands": {
+        "fun": {
+            "how-super": {
+                "text": "{user} %{rand} gay."
+            },
+            "russian-roulette": {
+                "win": "Şanslı, Hala hayattasın!",
+                "lose": ":gun: Pew, Öldün...",
+                "text": "Sonuç: {result}"
+            }
+        },
+        "info": {
+            "avatar": {
+                "text": "{user}'in Avatarı"
+            },
+            "bot": {
+                "title": "**{botName} Bilgileri**",
+                "text": ":bust_in_silhouette: Kullanıcılar: `{userCount}`\n\n:busts_in_silhouette: Suncucular: `{serverCount}`\n\nParçalar: `{shardCount}`\n\nPing:\n> Socket: `{wsping}`\n> Yanıt: `{ping}`\n\nÇalışma Süresi: `{uptime}`\n\nBellek Kullanımı: {memUsage}\n\nCpu: {cpu}"
+            },
+            "server": {
+                "title": "{serverName} Bilgileri",
+                "text": "**İsim: {serverName}\n\nID: {serverId}\n\nSahip: {serverOwner}\n\nÜyeler: {memberCount}\n\nKanallar: {channelCount}\n\nRoller: {roleCount}\n\nEmojiler: {emojiCount}**"
+            },
+            "user": {
+                "title": "{username}'in Profili",
+                "text": "**Kullanıcı Adı: {username}\n\nID: {id}\n\nTag: {tag}\n\nBot mu?: {isBot}\n\nHesap şu tarihte oluşturuldu: `{createdAt}`\n\nRoles: {roles}**"
+            }
+        },
+        "moderation": {
+            "reason": "Sebep",
+            "error": "Hata...",
+            "!member": "<kullanıcı> gerekli bir argümandır.",
+            "!count": "2 ila 100 arasında olması gereken geçersiz miktar belirtildi.",
+            "ban": {
+                "title": "Kullanıcı sunucudan yasakladı!",
+                "text": "Yasaklayan Kullanıcı: {executor} | `{executorId}`\n\nYasaklanan: {executed} | `{executedId}`\n\nSebep: {reason}"
+            },
+            "clear": {
+                "title": "{count} mesaj başarıyla silindi."
+            },
+            "kick": {
+                "title": "Kullanıcı sunucudan atıldı!",
+                "text": "Atan Kullanıcı: {executor} | `{executorId}`\n\nAtılan: {executed} | `{executedId}`\n\nSebep: {reason}"
+            },
+            "lock": {
+                "text": "{channel} başarıyla kilitlendi 🔐"
+            },
+            "nuke": {
+                "title": "Successfully Nuked!",
+                "text": "Nuked by: {executor} | `{executorId}`"
+            },
+            "timeout": {
+                "!time": "Geçersiz zaman!",
+                "title": "Kullanıcı zaman aşımına sokuldu!",
+                "text": "Yürüten: {executor} | `{executorId}`\n\nYürütülen: {executed} | `{executedId}`\n\nSüre: {duration}\n\nSebep: {reason}"
+            },
+            "unlock": {
+                "text": "{channel} başarıyla açıldı 🔓"
+            },
+            "untimeout": {
+                "title": "Kullanıcı zaman aşımından çıkarıldı!",
+                "text": "Yürüten: {executor} | `{executorId}`\n\nYürütülen: {executed} | `{executedId}`\n\nSebep: {reason}"
+            }
+        }
+    }
+}
